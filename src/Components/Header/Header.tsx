@@ -1,6 +1,6 @@
-import {TopHeader} from "./styled.js"
+import { TopHeader } from "./styled.js"
 
-export default function Header() {
+export  function Header() {
     const logged = false
 
     {!logged ? 
@@ -9,7 +9,7 @@ export default function Header() {
         </TopHeader> 
       :
         <TopHeader>
-            <h1>CBank</h1>  <a href="/login">Login</a>
+            <h1>CBank</h1>  <a href="/login">Davi</a>
         </TopHeader>
     }
      
