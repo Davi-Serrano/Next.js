@@ -1,15 +1,21 @@
-import { Center } from  "./styled.js"
+import { Center, Label, Title} from  "../styles/styled.js"
 
 export default function Home(){
     return(
         <Center>
-            <h2>Welcome to CBank</h2>
+            <Title>
+                <h2>Welcome to CBank</h2>
+            </Title>
             
-            <labe>Register :</labe>
-            <button>  Register with Github </button>
+            <Label>
+                <strong>Register :</strong>
+                <p>  Register with Github </p>
+            </Label>
                 
-            <labe>Login :</labe>
-            <button>   Sing In with Github </button> 
+            <Label>
+                <strong>Login :</strong>
+                <p> Sing In with Github </p> 
+            </Label>
         </Center>
     );
 }
